@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    input{
+        margin-bottom: 4px;
+      
+    }
+    #depois{
+        display: none;
+        margin-top: 40px;
+        width: 600px;
+        font-weight: bolder;
+    }
+
+</style>
+
+</head>
+<body>
+<div id="antes">
+    <h1> Bom dia, querido cliente!</h1>
+    <h3>Escolha uma das opções</h3>
+    
+
+   <input type="radio" name="opcoes" value="a" onclick="opcao(this.value)"> Falar com o atendente <br>
+   <input type="radio" name="opcoes" value="b" onclick="opcao(this.value)"> Falar com o RH <br>
+   <input type="radio" name="opcoes" value="c" onclick="opcao(this.value)"> Falar com o gerente <br>
+   <input type="radio" name="opcoes" value="d" onclick="opcao(this.value)"> Sair <br><br>
+   <button onclick="confirma()">Confirmar</button>
+ </div> 
+
+ <div id="depois">
+   <div id="resultado"></div>
+   <br>
+    <button id="voltar" onclick="voltar()"> Voltar ao menu</button>
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>

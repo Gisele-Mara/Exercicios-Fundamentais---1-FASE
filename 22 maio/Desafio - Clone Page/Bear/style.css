@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+#lado-login {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#urso img {
+    width: 150px;
+    height: 130px;
+}
+
+#h1-login h1 {
+    padding: 20px;
+
+}
+
+#text-dont-account {
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+#text-dont-account a {
+    color: rgb(236, 158, 13);
+    text-decoration: none;
+}
+
+#inpts {
+    width: 50%;
+
+}
+
+#e-mail label {
+    display: block;
+    color: rgb(119, 130, 163);
+    font-weight: 500;
+    padding-bottom: 4%;
+
+}
+
+#e-mail input {
+    display: block;
+    padding-right: 50%;
+    padding-top: 8%;
+
+}
+
+#senha label {
+    color: rgb(119, 130, 163);
+    font-weight: 500;
+    display: block;
+    padding-top: 6%;
+    padding-bottom: 3%;
+
+}
+
+#senha input {
+    display: block;
+    padding-right: 50%;
+    padding-top: 8%;
+}
+
+#stay-signed input {
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+}
+
+#botao-login {
+    width: 100%;
+
+}
+
+#botao-login button {
+    padding-right: 40%;
+    padding-left: 41%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: antiquewhite;
+    background-color: coral;
+    border: none;
+    border-radius: 2%;
+    font-size: larger;
+
+}
+
+#text-forgot {
+    margin-top: 4%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#info {
+    margin-top: 50px;
+    color: grey;
+    text-align: center;
+}
+
+
+
+#lado-intro {
+    width: 60%;
+    height: 100%;
+    background-image: url("02fundobear.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    background-color: white;
+    width: 553px;
+    height: 584px;
+    justify-content: center;
+    align-items: center;
+}
+
+#h2-intro h2 {
+    margin-top: 10%;
+    padding-bottom: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    line-height: 180%;
+    font-size: xx-large;
+
+
+}
+
+#paragrafo-intro p {
+    color: grey;
+    margin-bottom: 5%;
+    font-size: large;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
+    font-size: x-large;
+
+}
+
+#botao-intro {
+    padding-right: auto;
+    padding-left: auto;
+    width: 100%;
+}
+
+#botao-intro button {
+    width: 60%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: antiquewhite;
+    background-color: coral;
+    border: none;
+    border-radius: 2%;
+    font-size: larger;
+
+
+}

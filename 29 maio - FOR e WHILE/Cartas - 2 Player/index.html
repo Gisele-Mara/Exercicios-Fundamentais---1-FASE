@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+
+
+
+        }
+
+        #esquerda {
+            width: 50%;
+            background-color: aqua;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #direita {
+            width: 50%;
+            background-color: darkorange;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+      
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="esquerda">
+            <div id="P1">
+                <h1>PLAYER ONE</h1>
+                <label for="nome"> Digite o nome do 1º Player: </label><input type="text" name="player"  id="nomePlayerOne" placeholder="Nome">
+                
+                <input type="number" min="1" max="13" id="playOne" placeholder="carta">
+               
+                <button onclick="calcs()">Jogar</button>
+            </div>
+        </div>
+
+        <div id="direita">
+
+            <div id="P2">
+
+                <h1>PLAYER TWO</h1>
+
+                <label for="nome"> Digite o nome do 2º Player: </label><input type="text" name="player" id="nomePlayerTwo" placeholder="Nome">
+               
+                <input type="number" min="1" max="13" id="playTwo" placeholder="carta">
+                <button onclick="calcs()">Jogar</button>
+            </div>
+        </div>
+
+
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

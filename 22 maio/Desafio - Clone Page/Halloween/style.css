@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "123";
+    src: url("Bungee-Regular.otf");
+
+
+}
+
+@font-face {
+    font-family: "789";
+    src: url("Familiar_Pro-Bold.otf");
+
+}
+
+@font-face {
+
+    font-family: "456";
+    src: url("Nickainley-Normal.otf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* max-width: 1447px; */
+    background-color: blueviolet;
+}
+
+.container {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url("bg-halloween.png");
+    background-size: 100%;
+    background-repeat:  repeat-x;
+    background-position: center;
+
+
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 55px;
+
+
+
+}
+
+nav {
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "789";
+
+
+}
+
+#titulo {
+    margin-top: -10%;
+    color: white;
+    margin-bottom: 4%;
+
+}
+
+#titulo h1 {
+    font-size: 175px;
+    color: white;
+    font-family: "123";
+
+}
+
+#text-its-here {
+    margin-top: -23%;
+    margin-right: 27%;
+    font-size: 170px;
+    font-family: "456";
+}
+
+
+#text-evento {
+    color: white;
+    font-weight: 600;
+    font-size: 33px;
+    margin-right: 7%;
+    margin-top: -5%;
+    font-family: "789";
+}
+
+
+#inpt-botao {
+    width: 30%;
+    margin-right: 10%;
+}
+
+#inpt-botao button {
+    background-color: transparent;
+    color: white;
+    border: 2.9px solid white;
+    font-weight: 400;
+    padding: 2%;
+    border-radius: 10%;
+    font-size: 15px;
+}
+
+#inpt-botao input {
+    border: none;
+    border-radius: 4%;
+    padding: 2.85%;
+    margin-right: 3px;
+
+}
+
+
+#icons img {
+    width: 64px;
+    height: 64px;
+    margin-left: 48px;
+}

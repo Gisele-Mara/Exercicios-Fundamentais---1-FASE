@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url("https://st2.depositphotos.com/1012125/5836/v/950/depositphotos_58368557-stock-illustration-people-holding-the-word-generations.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #resultado {
+            font-weight: bolder;
+            font-size: x-large;
+        }
+       input{
+           margin-top: 4px;
+           margin-bottom: 4px;
+            text-align: center;
+
+        }
+        center{
+            box-sizing: border-box;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1>GERAÇÕES</h1>
+    <label> Digite o ano de nascimento para saber qual geração pertence</label><br><input type="number" value="1930" max="2023" id="geracao" placeholder="Ano">
+    <br>
+    <button onclick="verificar()">Verificar</button>
+
+    <div id="resultado"></div>
+</center> 
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

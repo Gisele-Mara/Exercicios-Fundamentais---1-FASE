@@ -1,0 +1,95 @@
+html{
+height:100%;
+
+}
+
+
+body{
+    height: 100%;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.container{
+    height: 100%;
+    width:100%;
+    background-color: yellow;
+    display:flex;
+    
+}
+#esquerda{
+    height:100%;
+    width: 50%;
+    background-color: beige;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+inpt{
+width: 100%;
+outline: 2px solid saddlebrown;
+
+
+}
+
+#inpts #e-mail{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgba(199, 189, 189, 0.973);
+    
+}
+
+
+#text-forgot{
+    margin-top: 30px;
+   
+}
+
+
+
+#botao-sign-in button{
+    background-color: orange;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    padding: 4px 18px;
+    color: bisque;
+    margin-top: 30px;
+
+}
+
+
+#direita{
+    height:100%;
+    width: 50%;
+    background-color: red;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#botao-sign-up button{
+    border: 1px solid bisque;
+    border-radius: 20px;
+    background: transparent;
+    padding: 4px 18px;
+    color: bisque;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+

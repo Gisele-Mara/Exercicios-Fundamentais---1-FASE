@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+body{
+font-family: 'Courier New', Courier, monospace;
+
+}
+label, input{
+    margin-bottom: 4px;
+}
+#coluna label{
+margin-left: 90px;
+padding-right: 60px;
+align-items: center;
+font-weight: bolder;
+
+
+}
+#resultado{
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+button{
+margin: auto;
+}
+    </style>
+</head>
+<body>
+    <h1>Maior idade entre 5 pessoas </h1>
+    <div id="coluna"> 
+        <label> NOME</label>
+        <label> IDADE </label>
+        
+
+    </div>
+    <br>
+    <label> 1º </label> <input type="text" class="nome"> <label>  </label> <input type="number" class="idade"> <br>
+    <label> 2º </label> <input type="text" class="nome"> <label>  </label> <input type="number" class="idade">  <br>
+    <label> 3º </label> <input type="text" class="nome"> <label>  </label> <input type="number" class="idade">  <br>
+    <label> 4º </label> <input type="text" class="nome"> <label>  </label> <input type="number" class="idade"><br>
+    <label> 5º </label> <input type="text" class="nome"> <label>  </label> <input type="number" class="idade"><br>
+
+    <button onclick="calculo()"> Verificar </button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+*{
+    border:2px solid pink;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+button{
+margin-left: 10cm;
+font-size: 0.4cm;
+
+}

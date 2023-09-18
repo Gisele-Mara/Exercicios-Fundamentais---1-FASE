@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: palevioletred;
+            color: white;
+            box-sizing: border-box;
+            width: 600px;
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 260px;
+          
+        }
+
+        #resultado{
+            color: yellow;
+            font-size: 15px;
+            text-align: center;
+            
+        }
+        button{
+            color: black;
+            font-weight: bolder;
+            border-radius: 3px;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+        label{
+            padding-right: 4px;
+        }
+
+        h1{
+            margin-bottom: 40px;
+        }
+
+        select{
+            width: 60px;
+            margin-right: 200px;
+            color: white;
+            background-color: rgb(198, 64, 109);
+        }
+        select::selection{
+            background:black
+        }
+  
+
+        #english *{ /*muda as opções */
+            background-color: rgb(115, 14, 48);
+
+        }
+
+        input{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>English Numbers Translation</h1>
+
+    <div #meio>
+    <label> Tradução</label><input type="text" id="item" placeholder="Resultado">
+    <button onclick="traduzir()">Traduzir</button>
+
+    <br><br><div id="resultado"></div>
+
+    <br>
+    <label> Número </label>
+
+    <select id="english">
+        <option value=" "> </option>
+        <option value="One"> One  </option>
+        <option value="Two"> Two </option>
+        <option value="Three"> Three </option>
+        <option value="Four"> Four </option>
+        <option value="Five"> Five </option>
+
+    </select>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
